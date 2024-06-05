@@ -12,11 +12,19 @@ The attribute is a dictionary containing the blueprint name and associated meta 
 If a blueprint has the url_prefix specified then it is used.
 Otherwise, the package name containing the blueprint is used as the url_prefix.
 
+## Installation
+
+    pip install --upgrade auto-blueprints
+
 ## Running
 
 Blueprints can be run as a module.
 
     python -m blueprints
+
+Blueprints can be run as a command line executable.
+
+    blueprints --host 127.0.0.1 --port 5000
 
 If waitress is installed then a server using waitress is started.
 If waitress is not installed then the flask development server is started.
