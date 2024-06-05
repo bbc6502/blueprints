@@ -35,3 +35,6 @@ waitress = ["waitress>=3.0.0"]
 
 [tool.setuptools]
 packages = ["blueprints"]
+
+[project.scripts]
+blueprints = "blueprints.main:run"
