@@ -2,7 +2,7 @@ from flask import Flask
 from blueprints import register_blueprints, parse_arguments
 
 args = parse_arguments()
-app = Flask(__name__)
+app = Flask('blueprints')
 register_blueprints('blueprints.txt', app)
 
 context = {
