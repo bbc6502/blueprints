@@ -1,0 +1,8 @@
+Flask==3.0.3
+waitress==3.0.0
+setuptools
+wheel
+pytest
+pytest-cov
+build
+twine
